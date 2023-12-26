@@ -1,10 +1,7 @@
-import Message from "./Message"
+import ListGroup from "./components/ListGroup";
 
-function App(){
-  const name = '';
-  if(name)
-    return <h1 className="text-green-300">Hello {name}</h1>;
-    return <h1>Hello World</h1>;
+function App() {
+  return <ListGroup />;
 }
 
 export default App;
